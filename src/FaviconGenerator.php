@@ -96,11 +96,11 @@ class FaviconGenerator
     public static function generateHtmlMetaIcons(String $publicPath = 'favicon'): string
     {
         $html = '
-            <link rel="apple-touch-icon" sizes="180x180" href=" ' . $publicPath . '/apple-touch-icon.png">
-            <link rel="icon" type="image/png" sizes="32x32" href=" ' . $publicPath . '/favicon-32x32.png">
-            <link rel="icon" type="image/png" sizes="16x16" href=" ' . $publicPath . '/favicon-16x16.png">
-            <link rel="manifest" href=" ' . $publicPath . '/site.webmanifest">
-            <link rel="mask-icon" href=" ' . $publicPath . '/safari-pinned-tab.svg" color="#5bbad5">
+            <link rel="apple-touch-icon" sizes="180x180" href="' . $publicPath . '/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="' . $publicPath . '/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="' . $publicPath . '/favicon-16x16.png">
+            <link rel="manifest" href="' . $publicPath . '/site.webmanifest">
+            <link rel="mask-icon" href="' . $publicPath . '/safari-pinned-tab.svg" color="#5bbad5">
             <meta name="msapplication-TileColor" content="#da532c">
             <meta name="theme-color" content="#ffffff">';
 
